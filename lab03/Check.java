@@ -25,11 +25,9 @@ public class Check{
         
         double costPerPerson = (totalCost/numPeople);
         int dollars = (int)costPerPerson;
-        int dimes = (int(costPerPerson*10)%10;
+        int dimes = (int)(costPerPerson*10)%10;
         int pennies = (int)(costPerPerson*100)%10;
-        System.out.println(dollars);
-        System.out.println(dimes);
-        System.out.println(pennies);
+   
         
         System.out.println("The total amount each person has to pay is: $" + dollars + "." + dimes + pennies);
         
