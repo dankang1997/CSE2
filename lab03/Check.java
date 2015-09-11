@@ -1,6 +1,9 @@
 // This program will take user input of the total cost, amount of tip, how many ways they are spliting and
 // compute those values to print out how much each person has to pay.
 
+// Dan (Kyungmook) Kang
+// Section 310
+// Lab 3 Check.java
 
 
 import java.util.Scanner;
