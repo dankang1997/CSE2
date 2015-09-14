@@ -8,17 +8,22 @@ public class Block {
 	
 	public static void main (String args[]){
 		
+		// This scanner will take values from the user
 		Scanner input = new Scanner(System.in);
 		
+		// I used l instead of length to save time
 		System.out.println("What is the length?");
 		double l = input.nextDouble();
 		
+		// w instead of width
 		System.out.println("What is the width?");
 		double w = input.nextDouble();
 				
+		//h instead of height		
 		System.out.println("What is the height?");
 		double h = input.nextDouble();
 		
+		// These are the equations used to find out the volume and the surface area
 		double volume = l*w*h;
 		double surfaceArea = 2*((w*l)+(h*l)+(h*w));
 		
