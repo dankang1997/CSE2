@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
+// Dan Kang
+// Lab 05, CalculatorSpecial
 // This class is made to calculate the input of the user until he/she inputs "n" or "N"
+// The calculation is on a similar platform as Calculator.java, which was the lab04
 
 public class CalculatorSpecial {
 
