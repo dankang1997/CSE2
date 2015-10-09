@@ -27,7 +27,7 @@ public class pyramid {
 			for(space=0; space<size-i; space++) 
 			{
 				System.out.print(" ");
-			}
+		
 
 			// This for loop will actually print out the star and a space after it for spacing.
 			for(int j=0;j<=i;j++) 
